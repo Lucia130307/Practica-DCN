@@ -245,7 +245,9 @@ main a{
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
-
+#popup:target {
+  display: flex;
+}
 .boletin{
     display: inline-block;
     margin-left: 99px;
