@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Culture Now</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Monoton&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="CSS/Estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <div class="stars">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  </div>
+    <header id="inicio" class="logo">
+        <img src="Imgs/logo.png" alt="Logo" class="log">
+        <h1 class="nombre">Design Culture Now</h1>
+    </header>
+    <nav>
+        <a href="#part"><b>Participantes</b></a>
+        <a href="#ubi"><b>Ubicación</b></a>
+        <a href="#bol"><b>Boletos</b></a>
+        <a href="#carrusel"><b>Imágenes</b></a>
+    </nav>
+    <main>
+        <section class="banner">
+            <img src="Imgs/Banner.png" alt="Banner">
+
+        </section>
+        <section class="participantes" id="part">
+            <div class="participante">
+                <div class="foto">
+                    <img src="Imgs/Erik.png" alt="Erik Adigard">
+                </div>
+                <div class="info">
+                    <h2>Erik Adigard | M.A.D. </h2>
+                    <p>Thursday, September 12 6:00 pm</p>
+                    <p>Graphic designer Erik Adigard founded McShane Adigard Design (M.A.D.) in 1989. The firm has since
+                        designed Web sites, multimedia installations, and print publications for global clients,
+                        including
+                        Wired magazine. </p>
+                </div>
+            </div>
+            <div class="participante">
+                <div class="foto">
+                    <img src="Imgs/Julie.png" alt="Julie Bargmann">
+                </div>
+                <div class="info">
+                    <h2>Julie Bargmann | D.I.R.T. Studio</h2>
+                    <p>Tuesday, October | 9 7:30 pm</p>
+                    <p>Julie Bargmann founded D.I.R.T Studio, a landscape consultancy, in 1992. Recent projects include
+                        the
+                        landscaping of the Massachusetts Museum of Contemporary Art in North Adams, and Riverside Park
+                        South
+                        and the Hudson River Park in New York City.</p>
+                </div>
+            </div>
+
+            <div class="participante">
+                <div class="foto">
+                    <img src="Imgs/Michael.png" alt="Michael Gabellini">
+                </div>
+                <div class="info">
+                    <h2>Michael Gabellini | Gabellini Associates</h2>
+                    <p>Wednesday, November 2 | 6:00 pm</p>
+                    <p>Michael Gabellini, a graduate of the Rhode Island School of Design, worked for Kohn Pedersen Fox
+                        Associates before founding his own practice in 1991. Recent projects include exhibitions for the
+                        Guggenhei Museum, the Marian Goodman Gallery, and the Council of Fashion Designers of America.
+                    </p>
+                </div>
+            </div>
+
+            <div class="participante">
+                <div class="foto">
+                    <img src="Imgs/Rebeca.png" alt="Rebeca Méndez">
+                </div>
+                <div class="info">
+                    <h2>Rebeca Méndez | Méndez Communications</h2>
+                    <p>Thursday, December 4 | 6:30 pm</p>
+                    <p>Rebeca Méndez, born and raised in Mexico City and trained at the Art Center College of Design in
+                        Pasadena, has designed publications for the Getty Center, the Los Angeles County Museum of Art,
+                        and the Whitney Museum of American Art. </p>
+                </div>
+            </div>
+            <div class="link">
+            <a href="#inicio">Ir a inicio</a>
+            </div>
+        </section>
+        
+        </div>
+        <section class="ubicacion" id="ubi">
+            <div class="direc">
+                <p><b><i>Cooper-Hewitt, National Design Museum</i></b></p>
+                <p><b>2 East 91st Street | New York City</b></p>
+                <p class="normal">El museo nacional de diseño de EE. UU. Una joya arquitectónica en el Upper East Side
+                    que fusiona
+                    historia, tecnología y artes decorativas. Imprescindible por sus exhibiciones vanguardistas y su
+                    espectacular sede, la antigua residencia de Andrew Carnegie.</p>
+                    <a href="#inicio">Ir a inicio</a>
+            </div>
+            <div class="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.982641312733!2d-73.96044812461227!3d40.78439577138278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258a2492a3fb1%3A0x2028546238b46dfa!2sMuseo%20Nacional%20de%20Dise%C3%B1o%20Cooper-Hewitt!5e0!3m2!1ses-419!2smx!4v1771612551149!5m2!1ses-419!2smx"
+                    width="700" height="260">
+                </iframe>
+            </div>
+        </section>
+        <section class="Boletos" id="bol">
+            <div class="boletin">
+                <img src="Imgs/poster.png" alt="">
+            <a href="#inicio">Ir a inicio</a>
+            </div>
+            <div class="venta">
+                <h1>Adquiere tus Boletos aquí:</h1>
+                <p><b>¡No te quedes fuera y vive una experiencia increible!</b></p>
+                <a href="#" id="boton"><b>CLICK AQUÍ</b></a>
+                
+            </div>
+            <div id="popup">
+                <img src="Imgs/agotado.png">
+            </div>
+            <script>
+                const btn = document.getElementById("boton");
+                const popup = document.getElementById("popup");
+
+                btn.addEventListener("click", function (e) {
+                    e.preventDefault();
+                    popup.style.display = "flex";
+                });
+                setTimeout(function () {
+                    popup.style.display = "none";
+                }, 3000);
+            </script>
+        </section>
+        <section id="carrusel" class="carrusel">
+            <div class="ejemplo">
+                <h1>EXPERIENCIA  DESIGN  CULTURE  NOW</h1>
+            </div>
+            <div class="carrusel3d">
+                <input type="radio" name="carrusel3d" id="radio1" checked>
+                <input type="radio" name="carrusel3d" id="radio2">
+                <input type="radio" name="carrusel3d" id="radio3">
+                <input type="radio" name="carrusel3d" id="radio4">
+                <input type="radio" name="carrusel3d" id="radio5">
+                <input type="radio" name="carrusel3d" id="radio6">
+                <input type="radio" name="carrusel3d" id="radio7">
+
+                <label for="radio1" id="img1">
+                    <img src="Imgs/imgs2/ejemplo1.png" alt="">
+                </label>
+                <label for="radio2" id="img2">
+                    <img src="Imgs/imgs2/ejemplo2.jpg" alt="">
+                </label>
+                <label for="radio3" id="img3">
+                    <img src="Imgs/imgs2/ejemplo3.webp" alt="">
+                </label>
+                <label for="radio4" id="img4">
+                    <img src="Imgs/imgs2/ejemplo4.webp" alt="">
+                </label>
+                <label for="radio5" id="img5">
+                    <img src="Imgs/imgs2/ejemplo5.jpg" alt="">
+                </label>
+                <label for="radio6" id="img6">
+                    <img src="Imgs/imgs2/ejemplo6.jpg" alt="">
+                </label>
+                <label for="radio7" id="img7">
+                    <img src="Imgs/imgs2/ejemplo7.jpg" alt="">
+                </label>
+            </div>
+           <a href="#inicio">Ir a inicio</a>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-center fot">
+            <ul class="flex-row">
+                <li><a href="#part">Participantes</a></li>
+                <li><a href="#ubi">Ubicación</a></li>
+                <li><a href="#bol">Boletos</a></li>
+                <li><a href="#carrusel">Imágenes</a></li>
+            </ul>
+
+            <ul class="flex-row">
+                <li>
+                    <i class="fab fa-youtube"></i>
+                </li>
+                <li>
+                    <i class="fab fa-instagram"></i>
+                </li>
+                <li>
+                    <i class="fab fa-facebook"></i>
+                </li>
+            </ul>
+            <p>&copy; 2026 | Design Culture Now</p>
+            <p><small>
+                    <img src="Imgs/LOGO2.png" alt="Logo">
+                </small></p>
+        </div>
+    </footer>
+</body>
+
+</html>
